@@ -1,4 +1,4 @@
-📡 BlueAttend – Bluetooth-Based Attendance System in Python
+📡 Presence-Track-Bluetooth-Device-Attendance-Tracker
 
 BlueAttend is a Python-based automated attendance system that uses Bluetooth Low Energy (BLE) scanning to mark attendance when a specific device is detected nearby. The system continuously scans for nearby Bluetooth devices and automatically records attendance for a predefined target device, eliminating the need for manual check-ins.
 

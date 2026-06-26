@@ -2,7 +2,10 @@ from datetime import datetime
 from bleak import BleakScanner
 import asyncio
 
-TARGET_NAME = "Devices_Name"  # REPLACE THIS with the name of the Bluetooth device you want to detect
+REGISTERED_DEVICES = {
+    "x0:0x:x0:00:x0:0d": "Device name",
+
+}
 mark_today = set()
 
 def detection_callback(device, advertisment_data):
